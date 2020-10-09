@@ -148,3 +148,5 @@ st.text(" ".join(chars))
 
 # Show the guessed letters
 st.text(f'guessed: {" ".join(state.guessed)}')
+
+st.write(st.__version__)
